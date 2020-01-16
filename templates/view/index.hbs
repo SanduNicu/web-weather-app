@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width">
     <title>Weather</title>
     <link rel="stylesheet" href="/css/style.css" title="" type="">
-    <script src="/js/app.js" charset="utf-8"></script>
+    <script defer src="/js/app.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="main-content">
       {{>header}}
+      <form class="weather-form">
+        <input placeholder="Location" class="weather-input">
+        <button class="weather-button">Submit</button>
+      </form>
+      <h2 class="location"></h2>
+      <p class="results"></p>
     </div>
     {{>footer}}
   </body>

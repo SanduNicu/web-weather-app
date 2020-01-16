@@ -30,8 +30,21 @@ h1 {
 }
 
 header a {
-  
   color: #888888;
   margin-right: 16px;
   text-decoration: none;
+}
+
+.weather-input {
+  border: 1px solid #ccc;
+  padding: 8px;
+
+}
+
+.weather-button {
+  cursor: pointer;
+  border: 1px solid #888;
+  background: #888;
+  color: white;
+  padding: 8px;
 }
